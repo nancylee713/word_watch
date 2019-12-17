@@ -69,7 +69,7 @@ main {
     }
   }
   .word-data {
-    width: 65%;
+    // width: 65%;
     background-color: #ddd;
     .top-word {
       display: flex;
@@ -80,20 +80,53 @@ main {
       color: $salmon;
       padding: 10px;
     }
-    .word-count {
-      display: flex;
+    .word-data {
+      // display: flex;
       flex-wrap: wrap;
       align-items: baseline;
       padding: 5px;
       overflow-y: scroll;
       overflow-x: scroll;
-      height: 90vh;
-      p {
-        margin-right: 10px;
-        span {
-          display: none;
-        }
-      }
+      height: 20vh;
+      // p {
+      //   margin-right: 10px;
+      //   span {
+      //     display: none;
+      //   }
+      // }
+    }
+    .top-word-title {
+      font-size: 100px;
+      display: block;
+      margin: auto;
+      text-align: center;
+      padding-top: 20px;
+    }
+    .word-count {
+      height: 10vh;
+    }
+    .top-word-count {
+      font-size: 30px;
+      padding-right: 20px;
+      text-align: center;
+      margin-left: 40%;
+      height: 20vh;
+    }
+    .your-list {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-bottom: 2px solid $indigo;
+      height: 8vh;
+      color: $salmon;
+      padding: 10px;
+    }
+    .word-container {
+      height: 40vh;
+    }
+    .new-word {
+      font-size: 20px;
+      margin: 20px;
     }
   }
 }
